@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.main {
+  background-color: rgba(20, 20, 43, 0.9);
+}
+.header {
+  color: white;
+
+  background: url("/images/react-logo.svg");
+  height: 550px;
+}
+.float-right {
+  float: right;
+}
+
+.margin {
+  margin: 50px;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 25px;
+}
+
+/* Clear floats after the columns */
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
